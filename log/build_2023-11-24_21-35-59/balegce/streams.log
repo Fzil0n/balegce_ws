@@ -1,0 +1,61 @@
+[0.433s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce -- -j8 -l8
+[0.542s] Built target ament_cmake_python_copy_balegce
+[0.869s] running egg_info
+[0.870s] writing balegce.egg-info/PKG-INFO
+[0.871s] writing dependency_links to balegce.egg-info/dependency_links.txt
+[0.871s] writing top-level names to balegce.egg-info/top_level.txt
+[0.874s] reading manifest file 'balegce.egg-info/SOURCES.txt'
+[0.875s] writing manifest file 'balegce.egg-info/SOURCES.txt'
+[0.931s] Built target ament_cmake_python_build_balegce_egg
+[0.949s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce -- -j8 -l8
+[0.993s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce
+[1.005s] -- Install configuration: ""
+[1.005s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/pythonpath.sh
+[1.006s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/pythonpath.dsv
+[1.006s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info
+[1.006s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.006s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info/top_level.txt
+[1.006s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info/PKG-INFO
+[1.006s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.006s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce
+[1.006s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce/dummy_module.py
+[1.007s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce/__init__.py
+[1.052s] Listing '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce'...
+[1.062s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config
+[1.063s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/collision_parameters.yaml
+[1.063s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/kinematics_parameters.yaml
+[1.063s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/_display2.rviz
+[1.063s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/sensor_parameters.yaml
+[1.064s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/_display.rviz
+[1.064s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/visual_parameters.yaml
+[1.064s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/dynamics_parameters.yaml
+[1.065s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/launch
+[1.065s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/launch/display.launch.py
+[1.065s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot
+[1.065s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual
+[1.065s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual/manipulator.xacro
+[1.065s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual/robot.xacro
+[1.066s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual/sensor.xacro
+[1.066s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual/properties.xacro
+[1.066s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes
+[1.067s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/reactionwheel.stl
+[1.067s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/body.stl
+[1.067s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/propeller_1.stl
+[1.068s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/propeller_2.stl
+[1.068s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/leg.stl
+[1.068s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/ament_index/resource_index/package_run_dependencies/balegce
+[1.068s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/ament_index/resource_index/parent_prefix_path/balegce
+[1.068s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/ament_prefix_path.sh
+[1.069s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/ament_prefix_path.dsv
+[1.069s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/path.sh
+[1.069s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/path.dsv
+[1.069s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/local_setup.bash
+[1.070s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/local_setup.sh
+[1.070s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/local_setup.zsh
+[1.070s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/local_setup.dsv
+[1.071s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.dsv
+[1.071s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/ament_index/resource_index/packages/balegce
+[1.071s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/cmake/balegceConfig.cmake
+[1.071s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/cmake/balegceConfig-version.cmake
+[1.072s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.xml
+[1.220s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce

@@ -1,0 +1,12 @@
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/uninstall.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/motor_control_uninstall.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/ament_cmake_python_copy_motor_control.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/ament_cmake_python_build_motor_control_egg.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/cpp_node_test.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/test.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/edit_cache.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/rebuild_cache.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/list_install_components.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/install.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/install/local.dir
+/home/tanawatp/BaLEGce/balegce_ws/build/motor_control/CMakeFiles/install/strip.dir

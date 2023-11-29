@@ -1,0 +1,4 @@
+source;share/balegce/local_setup.bash
+source;share/balegce/local_setup.dsv
+source;share/balegce/local_setup.sh
+source;share/balegce/local_setup.zsh
