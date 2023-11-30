@@ -1,0 +1,87 @@
+[0.196s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake /home/tanawatp/BaLEGce/balegce_ws/src/read_sensor -DCMAKE_INSTALL_PREFIX=/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor
+[0.309s] -- The C compiler identification is GNU 11.4.0
+[0.415s] -- The CXX compiler identification is GNU 11.4.0
+[0.429s] -- Detecting C compiler ABI info
+[0.563s] -- Detecting C compiler ABI info - done
+[0.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.577s] -- Detecting C compile features
+[0.578s] -- Detecting C compile features - done
+[0.583s] -- Detecting CXX compiler ABI info
+[0.729s] -- Detecting CXX compiler ABI info - done
+[0.741s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.742s] -- Detecting CXX compile features
+[0.742s] -- Detecting CXX compile features - done
+[0.750s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.119s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.333s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.437s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.450s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.470s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.699s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.707s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.924s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.977s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.089s] -- Looking for pthread.h
+[2.231s] -- Looking for pthread.h - found
+[2.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.369s] -- Found Threads: TRUE  
+[2.591s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[2.891s] -- Configuring done
+[2.908s] -- Generating done
+[2.911s] -- Build files have been written to: /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor
+[2.930s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake /home/tanawatp/BaLEGce/balegce_ws/src/read_sensor -DCMAKE_INSTALL_PREFIX=/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor
+[2.931s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor -- -j8 -l8
+[3.032s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[3.065s] [ 50%] Built target ament_cmake_python_copy_read_sensor
+[3.605s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[3.682s] running egg_info
+[3.683s] creating read_sensor.egg-info
+[3.683s] writing read_sensor.egg-info/PKG-INFO
+[3.683s] writing dependency_links to read_sensor.egg-info/dependency_links.txt
+[3.684s] writing top-level names to read_sensor.egg-info/top_level.txt
+[3.684s] writing manifest file 'read_sensor.egg-info/SOURCES.txt'
+[3.689s] reading manifest file 'read_sensor.egg-info/SOURCES.txt'
+[3.690s] writing manifest file 'read_sensor.egg-info/SOURCES.txt'
+[3.774s] [100%] Built target ament_cmake_python_build_read_sensor_egg
+[3.950s] [100%] Built target cpp_node_test
+[3.995s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor -- -j8 -l8
+[4.077s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor
+[4.096s] -- Install configuration: ""
+[4.097s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/pythonpath.sh
+[4.100s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/pythonpath.dsv
+[4.100s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info
+[4.101s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.101s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info/top_level.txt
+[4.101s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info/PKG-INFO
+[4.102s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.102s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor
+[4.102s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor/dummy_module.py
+[4.104s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor/__init__.py
+[4.180s] Listing '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor'...
+[4.181s] Compiling '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor/__init__.py'...
+[4.181s] Compiling '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor/dummy_module.py'...
+[4.195s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/read_sensor/dummy_script.py
+[4.195s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/read_sensor/read_imu.py
+[4.195s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/read_sensor/cpp_node_test
+[4.196s] -- Set runtime path of "/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/read_sensor/cpp_node_test" to ""
+[4.196s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor
+[4.196s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/ament_index/resource_index/package_run_dependencies/read_sensor
+[4.197s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/ament_index/resource_index/parent_prefix_path/read_sensor
+[4.197s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/ament_prefix_path.sh
+[4.199s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/ament_prefix_path.dsv
+[4.199s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/path.sh
+[4.200s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/path.dsv
+[4.200s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/local_setup.bash
+[4.200s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/local_setup.sh
+[4.200s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/local_setup.zsh
+[4.200s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/local_setup.dsv
+[4.200s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.dsv
+[4.201s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/ament_index/resource_index/packages/read_sensor
+[4.201s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/cmake/read_sensorConfig.cmake
+[4.201s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/cmake/read_sensorConfig-version.cmake
+[4.201s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.xml
+[4.341s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor

@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_read_sensor
+running egg_info
+writing read_sensor.egg-info/PKG-INFO
+writing dependency_links to read_sensor.egg-info/dependency_links.txt
+writing top-level names to read_sensor.egg-info/top_level.txt
+reading manifest file 'read_sensor.egg-info/SOURCES.txt'
+writing manifest file 'read_sensor.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_read_sensor_egg
+-- Install configuration: ""
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/pythonpath.sh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/pythonpath.dsv
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor/dummy_module.py
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor/__init__.py
+Listing '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/local/lib/python3.10/dist-packages/read_sensor'...
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/read_sensor/dummy_script.py
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/read_sensor/read_imu.py
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/read_sensor/cpp_node_test
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/ament_index/resource_index/package_run_dependencies/read_sensor
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/ament_index/resource_index/parent_prefix_path/read_sensor
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/path.sh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/environment/path.dsv
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/local_setup.bash
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/local_setup.sh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/local_setup.zsh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/local_setup.dsv
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.dsv
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/ament_index/resource_index/packages/read_sensor
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/cmake/read_sensorConfig.cmake
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/cmake/read_sensorConfig-version.cmake
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.xml

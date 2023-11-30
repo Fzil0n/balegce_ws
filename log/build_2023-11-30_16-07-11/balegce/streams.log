@@ -1,0 +1,101 @@
+[0.830s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake /home/tanawatp/BaLEGce/balegce_ws/src/balegce -DCMAKE_INSTALL_PREFIX=/home/tanawatp/BaLEGce/balegce_ws/install/balegce
+[0.947s] -- The C compiler identification is GNU 11.4.0
+[1.055s] -- The CXX compiler identification is GNU 11.4.0
+[1.073s] -- Detecting C compiler ABI info
+[1.213s] -- Detecting C compiler ABI info - done
+[1.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.226s] -- Detecting C compile features
+[1.227s] -- Detecting C compile features - done
+[1.232s] -- Detecting CXX compiler ABI info
+[1.391s] -- Detecting CXX compiler ABI info - done
+[1.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.404s] -- Detecting CXX compile features
+[1.405s] -- Detecting CXX compile features - done
+[1.412s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.776s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.994s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.098s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.112s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.132s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.360s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.370s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.582s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.636s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.750s] -- Looking for pthread.h
+[2.884s] -- Looking for pthread.h - found
+[2.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.028s] -- Found Threads: TRUE  
+[3.346s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[3.655s] -- Configuring done
+[3.665s] -- Generating done
+[3.668s] -- Build files have been written to: /home/tanawatp/BaLEGce/balegce_ws/build/balegce
+[3.694s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake /home/tanawatp/BaLEGce/balegce_ws/src/balegce -DCMAKE_INSTALL_PREFIX=/home/tanawatp/BaLEGce/balegce_ws/install/balegce
+[3.695s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce -- -j8 -l8
+[3.894s] Built target ament_cmake_python_copy_balegce
+[4.550s] running egg_info
+[4.551s] creating balegce.egg-info
+[4.552s] writing balegce.egg-info/PKG-INFO
+[4.553s] writing dependency_links to balegce.egg-info/dependency_links.txt
+[4.553s] writing top-level names to balegce.egg-info/top_level.txt
+[4.554s] writing manifest file 'balegce.egg-info/SOURCES.txt'
+[4.559s] reading manifest file 'balegce.egg-info/SOURCES.txt'
+[4.561s] writing manifest file 'balegce.egg-info/SOURCES.txt'
+[4.636s] Built target ament_cmake_python_build_balegce_egg
+[4.677s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce -- -j8 -l8
+[4.732s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce
+[4.745s] -- Install configuration: ""
+[4.746s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/pythonpath.sh
+[4.746s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/pythonpath.dsv
+[4.747s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info
+[4.747s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.747s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info/top_level.txt
+[4.747s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info/PKG-INFO
+[4.748s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.748s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce
+[4.748s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce/dummy_module.py
+[4.749s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce/__init__.py
+[4.822s] Listing '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce'...
+[4.823s] Compiling '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce/__init__.py'...
+[4.826s] Compiling '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/local/lib/python3.10/dist-packages/balegce/dummy_module.py'...
+[4.832s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config
+[4.832s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/collision_parameters.yaml
+[4.832s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/kinematics_parameters.yaml
+[4.834s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/_display2.rviz
+[4.835s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/sensor_parameters.yaml
+[4.835s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/_display.rviz
+[4.836s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/visual_parameters.yaml
+[4.836s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/config/dynamics_parameters.yaml
+[4.836s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/launch
+[4.836s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/launch/display.launch.py
+[4.837s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot
+[4.837s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual
+[4.838s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual/manipulator.xacro
+[4.838s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual/robot.xacro
+[4.838s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual/sensor.xacro
+[4.838s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/robot/visual/properties.xacro
+[4.839s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes
+[4.839s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/reactionwheel.stl
+[4.839s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/body.stl
+[4.840s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/propeller_1.stl
+[4.844s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/propeller_2.stl
+[4.847s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/meshes/leg.stl
+[4.848s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/ament_index/resource_index/package_run_dependencies/balegce
+[4.848s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/ament_index/resource_index/parent_prefix_path/balegce
+[4.849s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/ament_prefix_path.sh
+[4.849s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/ament_prefix_path.dsv
+[4.850s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/path.sh
+[4.850s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/environment/path.dsv
+[4.851s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/local_setup.bash
+[4.851s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/local_setup.sh
+[4.851s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/local_setup.zsh
+[4.851s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/local_setup.dsv
+[4.851s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.dsv
+[4.851s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/ament_index/resource_index/packages/balegce
+[4.852s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/cmake/balegceConfig.cmake
+[4.852s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/cmake/balegceConfig-version.cmake
+[4.852s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.xml
+[4.903s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce

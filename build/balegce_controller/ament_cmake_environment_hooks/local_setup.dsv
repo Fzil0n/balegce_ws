@@ -1,0 +1,3 @@
+source;share/balegce_controller/environment/ament_prefix_path.sh
+source;share/balegce_controller/environment/path.sh
+source;share/balegce_controller/environment/pythonpath.sh

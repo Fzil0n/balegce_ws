@@ -1,0 +1,398 @@
+[1.583s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.583s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f84ab4842b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f84ab4a2d10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f84ab4a2d10>>)
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.657s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tanawatp/BaLEGce/balegce_ws'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extension 'ignore_ament_install'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extensions ['colcon_pkg']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extension 'colcon_pkg'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extensions ['colcon_meta']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extension 'colcon_meta'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extensions ['ros']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce) by extension 'ros'
+[1.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/balegce' with type 'ros.ament_cmake' and name 'balegce'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extension 'ignore'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extension 'ignore_ament_install'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extensions ['colcon_pkg']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extension 'colcon_pkg'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extensions ['colcon_meta']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extension 'colcon_meta'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extensions ['ros']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_controller) by extension 'ros'
+[1.681s] DEBUG:colcon.colcon_core.package_identification:Package 'src/balegce_controller' with type 'ros.ament_cmake' and name 'balegce_controller'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extension 'ignore'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extension 'ignore_ament_install'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extensions ['colcon_pkg']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extension 'colcon_pkg'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extensions ['colcon_meta']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extension 'colcon_meta'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extensions ['ros']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/balegce_gazebo) by extension 'ros'
+[1.682s] DEBUG:colcon.colcon_core.package_identification:Package 'src/balegce_gazebo' with type 'ros.ament_cmake' and name 'balegce_gazebo'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ignore', 'ignore_ament_install']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore_ament_install'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_pkg']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_pkg'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_meta']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_meta'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ros']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ros'
+[1.684s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control' with type 'ros.ament_cmake' and name 'motor_control'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extensions ['ignore', 'ignore_ament_install']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extension 'ignore'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extension 'ignore_ament_install'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extensions ['colcon_pkg']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extension 'colcon_pkg'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extensions ['colcon_meta']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extension 'colcon_meta'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extensions ['ros']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/read_sensor) by extension 'ros'
+[1.685s] DEBUG:colcon.colcon_core.package_identification:Package 'src/read_sensor' with type 'ros.ament_cmake' and name 'read_sensor'
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.867s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/tanawatp/BaLEGce/balegce_ws/install
+[1.889s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/tanawatp/humanoid_ws/install
+[1.910s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/tanawatp/fra501_robotdevop/fra501_ws/install
+[1.947s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/tanawatp/ros2_workspaceTutorial/install
+[1.970s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[1.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'cmake_args' from command line to 'None'
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'cmake_target' from command line to 'None'
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'cmake_clean_cache' from command line to 'False'
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'cmake_clean_first' from command line to 'False'
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'cmake_force_configure' from command line to 'False'
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'ament_cmake_args' from command line to 'None'
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'catkin_cmake_args' from command line to 'None'
+[2.116s] Level 5:colcon.colcon_core.verb:set package 'balegce' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.116s] DEBUG:colcon.colcon_core.verb:Building package 'balegce' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/BaLEGce/balegce_ws/build/balegce', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/BaLEGce/balegce_ws/install/balegce', 'merge_install': False, 'path': '/home/tanawatp/BaLEGce/balegce_ws/src/balegce', 'symlink_install': False, 'test_result_base': None}
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'cmake_target' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'balegce_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.139s] DEBUG:colcon.colcon_core.verb:Building package 'balegce_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller', 'merge_install': False, 'path': '/home/tanawatp/BaLEGce/balegce_ws/src/balegce_controller', 'symlink_install': False, 'test_result_base': None}
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'balegce_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.161s] DEBUG:colcon.colcon_core.verb:Building package 'balegce_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo', 'merge_install': False, 'path': '/home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo', 'symlink_install': False, 'test_result_base': None}
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_args' from command line to 'None'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target' from command line to 'None'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.183s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control', 'merge_install': False, 'path': '/home/tanawatp/BaLEGce/balegce_ws/src/motor_control', 'symlink_install': False, 'test_result_base': None}
+[2.203s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'cmake_args' from command line to 'None'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'cmake_target' from command line to 'None'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'cmake_clean_cache' from command line to 'False'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'cmake_clean_first' from command line to 'False'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'cmake_force_configure' from command line to 'False'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'ament_cmake_args' from command line to 'None'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'catkin_cmake_args' from command line to 'None'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'read_sensor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.204s] DEBUG:colcon.colcon_core.verb:Building package 'read_sensor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor', 'merge_install': False, 'path': '/home/tanawatp/BaLEGce/balegce_ws/src/read_sensor', 'symlink_install': False, 'test_result_base': None}
+[2.224s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/BaLEGce/balegce_ws/src/balegce' with build type 'ament_cmake'
+[2.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/BaLEGce/balegce_ws/src/balegce'
+[2.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.415s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/BaLEGce/balegce_ws/src/balegce_controller' with build type 'ament_cmake'
+[2.415s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/BaLEGce/balegce_ws/src/balegce_controller'
+[2.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo' with build type 'ament_cmake'
+[2.577s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo'
+[2.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.740s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/BaLEGce/balegce_ws/src/motor_control' with build type 'ament_cmake'
+[2.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/BaLEGce/balegce_ws/src/motor_control'
+[2.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.894s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/BaLEGce/balegce_ws/src/read_sensor' with build type 'ament_cmake'
+[2.894s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/BaLEGce/balegce_ws/src/read_sensor'
+[2.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce -- -j8 -l8
+[3.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller -- -j8 -l8
+[3.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo -- -j8 -l8
+[3.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/motor_control -- -j8 -l8
+[3.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor -- -j8 -l8
+[3.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo -- -j8 -l8
+[3.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce -- -j8 -l8
+[3.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo
+[3.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce
+[3.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller -- -j8 -l8
+[3.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/motor_control -- -j8 -l8
+[3.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller
+[3.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor -- -j8 -l8
+[3.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/motor_control
+[3.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(balegce_gazebo)
+[3.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo' for CMake module files
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo' for CMake config files
+[3.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('balegce_gazebo', 'cmake_prefix_path')
+[3.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/hook/cmake_prefix_path.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/hook/cmake_prefix_path.dsv'
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/hook/cmake_prefix_path.sh'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/bin'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/pkgconfig/balegce_gazebo.pc'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/python3.10/site-packages'
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/bin'
+[3.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.ps1'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.dsv'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.sh'
+[3.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.bash'
+[3.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.zsh'
+[3.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/colcon-core/packages/balegce_gazebo)
+[3.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(balegce)
+[3.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce
+[3.997s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce' for CMake module files
+[3.998s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce' for CMake config files
+[3.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('balegce', 'cmake_prefix_path')
+[4.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/hook/cmake_prefix_path.ps1'
+[4.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/hook/cmake_prefix_path.dsv'
+[4.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/hook/cmake_prefix_path.sh'
+[4.025s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/bin'
+[4.025s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/lib/pkgconfig/balegce.pc'
+[4.025s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/lib/python3.10/site-packages'
+[4.025s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/bin'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.ps1'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.dsv'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.sh'
+[4.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.bash'
+[4.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.zsh'
+[4.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/colcon-core/packages/balegce)
+[4.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(balegce_controller)
+[4.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller
+[4.087s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller' for CMake module files
+[4.088s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller' for CMake config files
+[4.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('balegce_controller', 'cmake_prefix_path')
+[4.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/hook/cmake_prefix_path.ps1'
+[4.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/hook/cmake_prefix_path.dsv'
+[4.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/hook/cmake_prefix_path.sh'
+[4.121s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib'
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/bin'
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/pkgconfig/balegce_controller.pc'
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/python3.10/site-packages'
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/bin'
+[4.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.ps1'
+[4.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.dsv'
+[4.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.sh'
+[4.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.bash'
+[4.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.zsh'
+[4.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/colcon-core/packages/balegce_controller)
+[4.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control)
+[4.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/motor_control
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control' for CMake module files
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control' for CMake config files
+[4.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'cmake_prefix_path')
+[4.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/hook/cmake_prefix_path.ps1'
+[4.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/hook/cmake_prefix_path.dsv'
+[4.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/hook/cmake_prefix_path.sh'
+[4.211s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/lib'
+[4.211s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/bin'
+[4.211s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/lib/pkgconfig/motor_control.pc'
+[4.212s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/lib/python3.10/site-packages'
+[4.212s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/bin'
+[4.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.ps1'
+[4.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.dsv'
+[4.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.sh'
+[4.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.bash'
+[4.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.zsh'
+[4.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/colcon-core/packages/motor_control)
+[4.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor
+[4.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(balegce_gazebo)
+[4.300s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo' for CMake module files
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo' for CMake config files
+[4.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('balegce_gazebo', 'cmake_prefix_path')
+[4.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/hook/cmake_prefix_path.ps1'
+[4.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/hook/cmake_prefix_path.dsv'
+[4.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/hook/cmake_prefix_path.sh'
+[4.329s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib'
+[4.329s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/bin'
+[4.329s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/pkgconfig/balegce_gazebo.pc'
+[4.330s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/python3.10/site-packages'
+[4.330s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/bin'
+[4.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.ps1'
+[4.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.dsv'
+[4.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.sh'
+[4.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.bash'
+[4.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.zsh'
+[4.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/colcon-core/packages/balegce_gazebo)
+[4.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(balegce)
+[4.412s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce' for CMake module files
+[4.413s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce' for CMake config files
+[4.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('balegce', 'cmake_prefix_path')
+[4.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/hook/cmake_prefix_path.ps1'
+[4.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/hook/cmake_prefix_path.dsv'
+[4.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/hook/cmake_prefix_path.sh'
+[4.438s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/bin'
+[4.438s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/lib/pkgconfig/balegce.pc'
+[4.438s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/lib/python3.10/site-packages'
+[4.439s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/bin'
+[4.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.ps1'
+[4.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.dsv'
+[4.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.sh'
+[4.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.bash'
+[4.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/balegce/package.zsh'
+[4.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/balegce/share/colcon-core/packages/balegce)
+[4.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(balegce_controller)
+[4.515s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller' for CMake module files
+[4.515s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller' for CMake config files
+[4.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('balegce_controller', 'cmake_prefix_path')
+[4.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/hook/cmake_prefix_path.ps1'
+[4.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/hook/cmake_prefix_path.dsv'
+[4.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/hook/cmake_prefix_path.sh'
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/bin'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/pkgconfig/balegce_controller.pc'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/python3.10/site-packages'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/bin'
+[4.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.ps1'
+[4.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.dsv'
+[4.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.sh'
+[4.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.bash'
+[4.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.zsh'
+[4.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/colcon-core/packages/balegce_controller)
+[4.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(read_sensor)
+[4.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/read_sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/read_sensor
+[4.593s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor' for CMake module files
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor' for CMake config files
+[4.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('read_sensor', 'cmake_prefix_path')
+[4.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/hook/cmake_prefix_path.ps1'
+[4.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/hook/cmake_prefix_path.dsv'
+[4.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/hook/cmake_prefix_path.sh'
+[4.619s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib'
+[4.619s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/bin'
+[4.619s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/pkgconfig/read_sensor.pc'
+[4.619s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/python3.10/site-packages'
+[4.620s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/bin'
+[4.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.ps1'
+[4.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.dsv'
+[4.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.sh'
+[4.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.bash'
+[4.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.zsh'
+[4.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/colcon-core/packages/read_sensor)
+[4.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control)
+[4.702s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control' for CMake module files
+[4.703s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control' for CMake config files
+[4.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'cmake_prefix_path')
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/hook/cmake_prefix_path.ps1'
+[4.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/hook/cmake_prefix_path.dsv'
+[4.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/hook/cmake_prefix_path.sh'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/lib'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/bin'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/lib/pkgconfig/motor_control.pc'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/lib/python3.10/site-packages'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/bin'
+[4.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.ps1'
+[4.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.dsv'
+[4.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.sh'
+[4.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.bash'
+[4.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.zsh'
+[4.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/colcon-core/packages/motor_control)
+[4.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(read_sensor)
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor' for CMake module files
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor' for CMake config files
+[4.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('read_sensor', 'cmake_prefix_path')
+[4.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/hook/cmake_prefix_path.ps1'
+[4.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/hook/cmake_prefix_path.dsv'
+[4.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/hook/cmake_prefix_path.sh'
+[4.853s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib'
+[4.853s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/bin'
+[4.853s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/pkgconfig/read_sensor.pc'
+[4.853s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/lib/python3.10/site-packages'
+[4.853s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/bin'
+[4.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.ps1'
+[4.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.dsv'
+[4.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.sh'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.bash'
+[4.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/read_sensor/package.zsh'
+[4.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/BaLEGce/balegce_ws/install/read_sensor/share/colcon-core/packages/read_sensor)
+[4.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.887s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.924s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.925s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.925s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.944s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tanawatp/BaLEGce/balegce_ws/install/local_setup.ps1'
+[4.971s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tanawatp/BaLEGce/balegce_ws/install/_local_setup_util_ps1.py'
+[4.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tanawatp/BaLEGce/balegce_ws/install/setup.ps1'
+[5.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tanawatp/BaLEGce/balegce_ws/install/local_setup.sh'
+[5.002s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tanawatp/BaLEGce/balegce_ws/install/_local_setup_util_sh.py'
+[5.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tanawatp/BaLEGce/balegce_ws/install/setup.sh'
+[5.031s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tanawatp/BaLEGce/balegce_ws/install/local_setup.bash'
+[5.032s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tanawatp/BaLEGce/balegce_ws/install/setup.bash'
+[5.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tanawatp/BaLEGce/balegce_ws/install/local_setup.zsh'
+[5.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tanawatp/BaLEGce/balegce_ws/install/setup.zsh'

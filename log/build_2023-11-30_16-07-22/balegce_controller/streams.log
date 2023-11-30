@@ -1,0 +1,45 @@
+[0.649s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller -- -j8 -l8
+[0.713s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[0.740s] [100%] Built target cpp_node_test
+[0.753s] [100%] Built target ament_cmake_python_copy_balegce_controller
+[1.245s] running egg_info
+[1.247s] writing balegce_controller.egg-info/PKG-INFO
+[1.247s] writing dependency_links to balegce_controller.egg-info/dependency_links.txt
+[1.247s] writing top-level names to balegce_controller.egg-info/top_level.txt
+[1.252s] reading manifest file 'balegce_controller.egg-info/SOURCES.txt'
+[1.254s] writing manifest file 'balegce_controller.egg-info/SOURCES.txt'
+[1.328s] [100%] Built target ament_cmake_python_build_balegce_controller_egg
+[1.349s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller -- -j8 -l8
+[1.408s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller
+[1.428s] -- Install configuration: ""
+[1.428s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/pythonpath.sh
+[1.428s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/pythonpath.dsv
+[1.428s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info
+[1.429s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.430s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.431s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.431s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.432s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller
+[1.433s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller/dummy_module.py
+[1.433s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller/__init__.py
+[1.494s] Listing '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller'...
+[1.503s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/balegce_controller/dummy_script.py
+[1.503s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/balegce_controller/stupid_velocity_controller.py
+[1.503s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/balegce_controller/cpp_node_test
+[1.503s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/ament_index/resource_index/package_run_dependencies/balegce_controller
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/ament_index/resource_index/parent_prefix_path/balegce_controller
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/ament_prefix_path.sh
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/ament_prefix_path.dsv
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/path.sh
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/path.dsv
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/local_setup.bash
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/local_setup.sh
+[1.504s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/local_setup.zsh
+[1.505s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/local_setup.dsv
+[1.505s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.dsv
+[1.505s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/ament_index/resource_index/packages/balegce_controller
+[1.505s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/cmake/balegce_controllerConfig.cmake
+[1.505s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/cmake/balegce_controllerConfig-version.cmake
+[1.505s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.xml
+[1.641s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce_controller

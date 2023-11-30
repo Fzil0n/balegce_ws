@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_balegce_controller
+running egg_info
+writing balegce_controller.egg-info/PKG-INFO
+writing dependency_links to balegce_controller.egg-info/dependency_links.txt
+writing top-level names to balegce_controller.egg-info/top_level.txt
+reading manifest file 'balegce_controller.egg-info/SOURCES.txt'
+writing manifest file 'balegce_controller.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_balegce_controller_egg
+-- Install configuration: ""
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/pythonpath.sh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/pythonpath.dsv
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller/dummy_module.py
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller/__init__.py
+Listing '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/local/lib/python3.10/dist-packages/balegce_controller'...
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/balegce_controller/dummy_script.py
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/balegce_controller/stupid_velocity_controller.py
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/lib/balegce_controller/cpp_node_test
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/ament_index/resource_index/package_run_dependencies/balegce_controller
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/ament_index/resource_index/parent_prefix_path/balegce_controller
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/path.sh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/environment/path.dsv
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/local_setup.bash
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/local_setup.sh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/local_setup.zsh
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/local_setup.dsv
+-- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.dsv
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/ament_index/resource_index/packages/balegce_controller
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/cmake/balegce_controllerConfig.cmake
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/cmake/balegce_controllerConfig-version.cmake
+-- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_controller/share/balegce_controller/package.xml

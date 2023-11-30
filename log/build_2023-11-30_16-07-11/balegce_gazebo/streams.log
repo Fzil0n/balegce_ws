@@ -1,0 +1,94 @@
+[0.522s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake /home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo -DCMAKE_INSTALL_PREFIX=/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo
+[0.618s] -- The C compiler identification is GNU 11.4.0
+[0.722s] -- The CXX compiler identification is GNU 11.4.0
+[0.737s] -- Detecting C compiler ABI info
+[0.872s] -- Detecting C compiler ABI info - done
+[0.885s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.886s] -- Detecting C compile features
+[0.887s] -- Detecting C compile features - done
+[0.891s] -- Detecting CXX compiler ABI info
+[1.034s] -- Detecting CXX compiler ABI info - done
+[1.051s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.051s] -- Detecting CXX compile features
+[1.053s] -- Detecting CXX compile features - done
+[1.060s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.415s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.617s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.719s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.733s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.753s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.984s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.992s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.213s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.263s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.350s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.384s] -- Looking for pthread.h
+[2.524s] -- Looking for pthread.h - found
+[2.526s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.657s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.659s] -- Found Threads: TRUE  
+[2.947s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[3.260s] -- Configuring done
+[3.282s] -- Generating done
+[3.282s] -- Build files have been written to: /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo
+[3.301s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake /home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo -DCMAKE_INSTALL_PREFIX=/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo
+[3.308s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo -- -j8 -l8
+[3.424s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[3.486s] [ 50%] Built target ament_cmake_python_copy_balegce_gazebo
+[4.116s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[4.304s] running egg_info
+[4.305s] creating balegce_gazebo.egg-info
+[4.306s] writing balegce_gazebo.egg-info/PKG-INFO
+[4.306s] writing dependency_links to balegce_gazebo.egg-info/dependency_links.txt
+[4.307s] writing top-level names to balegce_gazebo.egg-info/top_level.txt
+[4.307s] writing manifest file 'balegce_gazebo.egg-info/SOURCES.txt'
+[4.312s] reading manifest file 'balegce_gazebo.egg-info/SOURCES.txt'
+[4.313s] writing manifest file 'balegce_gazebo.egg-info/SOURCES.txt'
+[4.384s] [100%] Built target ament_cmake_python_build_balegce_gazebo_egg
+[4.415s] [100%] Built target cpp_node_test
+[4.444s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo -- -j8 -l8
+[4.677s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo
+[4.775s] -- Install configuration: ""
+[4.775s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/environment/pythonpath.sh
+[4.775s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/environment/pythonpath.dsv
+[4.775s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo-0.0.0-py3.10.egg-info
+[4.776s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.776s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo-0.0.0-py3.10.egg-info/top_level.txt
+[4.776s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo-0.0.0-py3.10.egg-info/PKG-INFO
+[4.776s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.776s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo
+[4.776s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo/dummy_module.py
+[4.776s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo/__init__.py
+[4.777s] Listing '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo'...
+[4.777s] Compiling '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo/__init__.py'...
+[4.777s] Compiling '/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo/dummy_module.py'...
+[4.777s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/balegce_gazebo/dummy_script.py
+[4.777s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/balegce_gazebo/cpp_node_test
+[4.777s] -- Set runtime path of "/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/balegce_gazebo/cpp_node_test" to ""
+[4.778s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/launch
+[4.778s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/launch/balegce.launch.py
+[4.778s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/launch/spawn.launch.py
+[4.778s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/robot
+[4.778s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/robot/balegce_controller.gazebo.xacro
+[4.778s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/robot/balegce_sensor.gazebo.xacro
+[4.778s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/robot/balegce.gazebo.xacro
+[4.779s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/config
+[4.779s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/config/controller_config.yaml
+[4.779s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/ament_index/resource_index/package_run_dependencies/balegce_gazebo
+[4.779s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/ament_index/resource_index/parent_prefix_path/balegce_gazebo
+[4.779s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/environment/ament_prefix_path.sh
+[4.779s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/environment/ament_prefix_path.dsv
+[4.779s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/environment/path.sh
+[4.779s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/environment/path.dsv
+[4.780s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/local_setup.bash
+[4.780s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/local_setup.sh
+[4.780s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/local_setup.zsh
+[4.780s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/local_setup.dsv
+[4.780s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.dsv
+[4.781s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/ament_index/resource_index/packages/balegce_gazebo
+[4.781s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/cmake/balegce_gazeboConfig.cmake
+[4.781s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/cmake/balegce_gazeboConfig-version.cmake
+[4.781s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/package.xml
+[4.894s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/balegce_gazebo

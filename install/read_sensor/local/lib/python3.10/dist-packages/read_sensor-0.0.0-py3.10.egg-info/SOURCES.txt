@@ -1,0 +1,7 @@
+setup.py
+read_sensor/__init__.py
+read_sensor/dummy_module.py
+read_sensor.egg-info/PKG-INFO
+read_sensor.egg-info/SOURCES.txt
+read_sensor.egg-info/dependency_links.txt
+read_sensor.egg-info/top_level.txt
