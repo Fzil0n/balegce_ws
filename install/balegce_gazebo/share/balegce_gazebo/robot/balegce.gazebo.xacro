@@ -13,7 +13,12 @@
     <xacro:include filename="$(find ${description_pkg})/robot/visual/manipulator.xacro"/>
     <xacro:include filename="$(find ${description_package})/robot/visual/sensor.xacro"/>
     
+    <!-- <link name="world"/> -->
     <xacro:balegce/>
+    <!-- <joint name="offset" type="floating">
+        <parent link="world"/>
+        <child link="base"/>
+    </joint> -->
     <xacro:sensor_link/>
     <xacro:sensor_plugins/>
     <xacro:velocity_controller/>

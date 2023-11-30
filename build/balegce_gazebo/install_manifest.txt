@@ -7,7 +7,10 @@
 /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo/dummy_module.py
 /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/local/lib/python3.10/dist-packages/balegce_gazebo/__init__.py
 /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/balegce_gazebo/dummy_script.py
+/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/balegce_gazebo/stupid_velocity_controller.py
+/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/balegce_gazebo/read_imu.py
 /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/lib/balegce_gazebo/cpp_node_test
+/home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/launch/balegce.launch.py
 /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/launch/spawn.launch.py
 /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/robot/balegce_controller.gazebo.xacro
 /home/tanawatp/BaLEGce/balegce_ws/install/balegce_gazebo/share/balegce_gazebo/robot/balegce_sensor.gazebo.xacro

@@ -29,6 +29,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   scripts/dummy_script.py
   scripts/stupid_velocity_controller.py
+  scripts/read_imu.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

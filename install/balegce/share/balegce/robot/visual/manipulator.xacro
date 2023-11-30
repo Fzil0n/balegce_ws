@@ -152,7 +152,8 @@
         </collision>
     </xacro:macro>
 
-    <xacro:macro name="base" params="">
+    <!-- <xacro:macro name="base" params=""> -->
+    <xacro:macro name="base_offset" params="">
         <joint name="base" type="fixed">
             <parent link="base"/>
             <child link="leg"/>
@@ -247,7 +248,8 @@
             <xacro:propeller_collision />
         </link>
 
-        <xacro:base/>
+        <!-- <xacro:base/> -->
+        <xacro:base_offset/>
         <xacro:joint_body/>
         <xacro:joint_wheel/>
         <xacro:joint_propeller_1/>

@@ -1,0 +1,59 @@
+[0.148s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/motor_control -- -j8 -l8
+[0.228s] [100%] Built target cpp_node_test
+[0.241s] [100%] Built target ament_cmake_python_copy_motor_control
+[0.599s] running egg_info
+[0.600s] writing motor_control.egg-info/PKG-INFO
+[0.601s] writing dependency_links to motor_control.egg-info/dependency_links.txt
+[0.601s] writing top-level names to motor_control.egg-info/top_level.txt
+[0.604s] reading manifest file 'motor_control.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'motor_control.egg-info/SOURCES.txt'
+[0.653s] [100%] Built target ament_cmake_python_build_motor_control_egg
+[0.673s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/BaLEGce/balegce_ws/build/motor_control -- -j8 -l8
+[0.730s] Invoking command in '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/motor_control
+[0.743s] -- Install configuration: ""
+[0.743s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/environment/pythonpath.sh
+[0.743s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/environment/pythonpath.dsv
+[0.743s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control-0.0.0-py3.10.egg-info
+[0.744s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.744s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control-0.0.0-py3.10.egg-info/top_level.txt
+[0.744s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control-0.0.0-py3.10.egg-info/PKG-INFO
+[0.744s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.744s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control
+[0.745s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control/dummy_module.py
+[0.745s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control/__init__.py
+[0.803s] Listing '/home/tanawatp/BaLEGce/balegce_ws/install/motor_control/local/lib/python3.10/dist-packages/motor_control'...
+[0.809s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/lib/motor_control/dummy_script.py
+[0.810s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/lib/motor_control/cpp_node_test
+[0.810s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/launch
+[0.810s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/launch/display.launch.py
+[0.811s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot
+[0.811s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot/dynamics
+[0.811s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot/dynamics/manipulator.xacro
+[0.811s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot/dynamics/robotDynamics.xacro
+[0.811s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot/visual
+[0.812s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot/visual/manipulator.xacro
+[0.812s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot/visual/robot.xacro
+[0.812s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot/visual/motor.xacro
+[0.812s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/robot/visual/properties.xacro
+[0.812s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/meshes
+[0.813s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/meshes/Propeller v1.STL
+[0.813s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/meshes/Stupid_Pointer.stl
+[0.813s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/meshes/motor.stl
+[0.813s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/meshes/assem_rectionwheel.STL
+[0.813s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/meshes/assem_leg.STL
+[0.813s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/ament_index/resource_index/package_run_dependencies/motor_control
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/ament_index/resource_index/parent_prefix_path/motor_control
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.sh
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.dsv
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/environment/path.sh
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/environment/path.dsv
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/local_setup.bash
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/local_setup.sh
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/local_setup.zsh
+[0.814s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/local_setup.dsv
+[0.815s] -- Installing: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.dsv
+[0.815s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/ament_index/resource_index/packages/motor_control
+[0.815s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/cmake/motor_controlConfig.cmake
+[0.815s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/cmake/motor_controlConfig-version.cmake
+[0.815s] -- Up-to-date: /home/tanawatp/BaLEGce/balegce_ws/install/motor_control/share/motor_control/package.xml
+[0.881s] Invoked command in '/home/tanawatp/BaLEGce/balegce_ws/build/motor_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/BaLEGce/balegce_ws/build/motor_control

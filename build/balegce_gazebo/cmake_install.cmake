@@ -67,7 +67,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/balegce_gazebo" TYPE PROGRAM FILES "/home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo/scripts/dummy_script.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/balegce_gazebo" TYPE PROGRAM FILES
+    "/home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo/scripts/dummy_script.py"
+    "/home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo/scripts/stupid_velocity_controller.py"
+    "/home/tanawatp/BaLEGce/balegce_ws/src/balegce_gazebo/scripts/read_imu.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
